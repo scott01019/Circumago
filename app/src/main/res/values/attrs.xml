@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontedTextView">
+        <attr name="font" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BoardView">
+        <attr name="gameType" format="enum">
+            <enum name="rotatable" value="0"/>
+            <enum name="permutable" value="1"/>
+            <enum name="orientable" value="2"/>
+        </attr>
+        <attr name="faceletType" format="enum">
+            <enum name="cornersAndEdges" value="0"/>
+            <enum name="corners" value="1"/>
+            <enum name="edges" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

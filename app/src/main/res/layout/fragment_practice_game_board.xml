@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.apps.scott.circumago.common.view.board.BoardView
+        android:id="@+id/fragment_practice_game_board_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.apps.scott.circumago.common.view.FontedTextView
+            android:id="@+id/fragment_practice_game_board_scramble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/practice_scramble_margin"
+            android:background="@drawable/underline"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:text="@string/fragment_practice_game_board_scramble_text"
+            android:textSize="@dimen/activity_view_pager_text"
+            custom:font="JosefinSans-Bold.ttf"/>
+
+        <com.apps.scott.circumago.common.view.FontedTextView
+            android:id="@+id/fragment_practice_game_board_solve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/practice_solve_margin"
+            android:background="@drawable/underline"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:text="@string/fragment_practice_game_board_solve_text"
+            android:textSize="@dimen/activity_view_pager_text"
+            custom:font="JosefinSans-Bold.ttf"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

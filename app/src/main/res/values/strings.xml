@@ -1,0 +1,242 @@
+<resources>
+    // Application
+    <string name="app_name">Circumago</string>
+    <string name="app_id">306950450231</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4560952593696586/4855248150</string>
+
+    // Main Menu Activity
+    <string name="main_menu_title_text">Circumago</string>
+    <string name="main_menu_tutorial_text">How To Play</string>
+    <string name="main_menu_play_text">Play</string>
+    <string name="main_menu_settings_text">Settings</string>
+    <string name="main_menu_practice_text">Practice</string>
+
+    // Game Setup Activity
+    <string name="game_setup_title_text">Puzzle Setup</string>
+    <string name="game_setup_generate_text">Generate Puzzle</string>
+
+    <string-array name="node_types">
+        <item>Rotatable</item>
+        <item>Permutable</item>
+        <item>Orientable</item>
+    </string-array>
+
+    <string-array name="board_formats">
+        <item>Corners and Edges</item>
+        <item>Corners Only</item>
+        <item>Edges Only</item>
+    </string-array>
+
+    <string-array name="board_types_corners_and_edges">
+        <item>Square 3x3</item>
+        <item>Square 2x2</item>
+        <item>Cross</item>
+        <item>Line 2</item>
+        <item>Line 3</item>
+        <item>X</item>
+        <item>Triangle 3</item>
+        <item>Triangle 6</item>
+        <item>Plus</item>
+        <item>Wrench</item>
+        <item>Flower</item>
+        <item>Unorthodox 1</item>
+        <item>Unorthodox 2</item>
+        <item>Side By Side</item>
+    </string-array>
+
+    <string-array name="board_types_corners">
+        <item>Square 3x3</item>
+        <item>Square 2x2</item>
+        <item>Cross</item>
+        <item>Edges</item>
+        <item>Line 2</item>
+        <item>Line 3</item>
+        <item>X</item>
+    </string-array>
+
+    <string-array name="board_types_edges">
+        <item>Square 3x3</item>
+        <item>Square 2x2</item>
+        <item>Cross</item>
+        <item>Line 2</item>
+        <item>Line 3</item>
+    </string-array>
+
+    // Settings Activity
+    <string name="settings_title_text">Settings</string>
+    <string name="settings_donation">Click Here to Eliminate Ads!</string>
+
+    <string-array name="show_timer_settings">
+        <item>Display Timer</item>
+        <item>Hide Timer</item>
+    </string-array>
+
+    <string-array name="input_settings">
+        <item>Tap to Rotate</item>
+        <item>Swipe to Rotate</item>
+    </string-array>
+
+    <string-array name="scramble_animation_settings">
+        <item>Scramble Animation</item>
+        <item>Instant Scramble</item>
+    </string-array>
+
+    <string-array name="game_warning_prompt_settings">
+        <item>Show Back Warning</item>
+        <item>Hide Back Warning</item>
+    </string-array>
+
+    // Play Game Activity
+    <string name="play_game_back_prompt_text">
+        "Are you sure you want to go back? All progress will be lost."
+    </string>
+
+    <string-array name="win_texts">
+        <item>Amazing!</item>
+        <item>Excellent!</item>
+        <item>Fantastic!</item>
+        <item>Perfect!</item>
+        <item>Outstanding!</item>
+        <item>Superb!</item>
+        <item>Exquisite!</item>
+        <item>Impressive!</item>
+        <item>Unstoppable!</item>
+        <item>Godlike!</item>
+    </string-array>
+
+    // Post Game Activity
+    <string name="post_game_title_text">Circumago</string>
+    <string name="post_game_replay_text">Replay Board</string>
+    <string name="post_game_new_game_text">Play New Board</string>
+    <string name="post_game_main_menu_text">Main Menu</string>
+
+    // Guides Activity
+    <string name="guides_menu_title_text">Guides</string>
+    <string name="guides_objective_text">Objective</string>
+    <string name="guides_gloassary_text">Glossary</string>
+
+    // Objective Activity
+    <string name="objective_title_text">Objective</string>
+    <string name="objective_explanation_text">
+        The objective of a Circumago puzzle is
+        to restore each node to its original position
+        and orientation. When each node is restored to
+        its original position and orientation the puzzle
+        will be solved and each colored cell in each
+        node will be the same color as the closest solid
+        colored center node.
+    </string>
+    <string name="objective_scrambled_text">Scrambled</string>
+    <string name="objective_solving_text">Solving</string>
+    <string name="objective_solved_text">Solved</string>
+
+    // Glossary Activity
+    <string name="glossary_title_text">Glossary</string>
+    <string name="glossary_circumago_text">Circumago:</string>
+    <string name="glossary_circumago_definition_text">
+        a Latin word meaning \"I make rotate\"; also the name of this app!
+    </string>
+    <string name="glossary_node_text">Node:</string>
+    <string name="glossary_node_definition_text">
+        any positioned piece on a Circumago puzzle board (e.g. edges, corners, and centers)
+    </string>
+    <string name="glossary_orientable_text">Orientable:</string>
+    <string name="glossary_orientable_definition_text">
+        a puzzle node which has a manipulable orientation but does not change position
+    </string>
+    <string name="glossary_permutable_text">Permutable:</string>
+    <string name="glossary_permutable_definition_text">
+        a puzzle node which has a manipulable position but does not change orientation
+    </string>
+    <string name="glossary_rotatable_text">Rotatable:</string>
+    <string name="glossary_rotatable_definition_text">
+        a puzzle node which has both a manipulable position and orientation
+    </string>
+
+    // Play Game Board Fragment
+    <string name="fragment_play_game_board_scramble_text">Scramble</string>
+
+    // Practice Game Board Fragment
+    <string name="fragment_practice_game_board_scramble_text">Scramble</string>
+    <string name="fragment_practice_game_board_solve_text">Sovle</string>
+
+    // No Ads Fragment
+    <string name="fragment_no_ads_thank_you">Thank you for upgrading to Premium!</string>
+
+    // Games Achievements
+    <string name="achievement_square_3x3_2color">CgkIt9iwvfcIEAIQAQ</string>
+    <string name="achievement_square_3x3_3color">CgkIt9iwvfcIEAIQAg</string>
+    <string name="achievement_square_3x3_4color">CgkIt9iwvfcIEAIQAw</string>
+    <string name="achievement_square_3x3_5color">CgkIt9iwvfcIEAIQBA</string>
+    <string name="achievement_square_3x3_6color">CgkIt9iwvfcIEAIQBQ</string>
+    <string name="achievement_square_3x3_7color">CgkIt9iwvfcIEAIQBg</string>
+    <string name="achievement_square_3x3_8color">CgkIt9iwvfcIEAIQBw</string>
+    <string name="achievement_square_3x3_9color">CgkIt9iwvfcIEAIQCA</string>
+    <string name="achievement_square_2x2_2color">CgkIt9iwvfcIEAIQCg</string>
+    <string name="achievement_square_2x2_3color">CgkIt9iwvfcIEAIQCw</string>
+    <string name="achievement_square_2x2_4color">CgkIt9iwvfcIEAIQDA</string>
+    <string name="achievement_cross_2color">CgkIt9iwvfcIEAIQDQ</string>
+    <string name="achievement_cross_3color">CgkIt9iwvfcIEAIQDg</string>
+    <string name="achievement_cross_4color">CgkIt9iwvfcIEAIQDw</string>
+    <string name="achievement_cross_5color">CgkIt9iwvfcIEAIQEA</string>
+    <string name="achievement_line_2">CgkIt9iwvfcIEAIQEQ</string>
+    <string name="achievement_line_3_2color">CgkIt9iwvfcIEAIQEg</string>
+    <string name="achievement_line_3_3color">CgkIt9iwvfcIEAIQEw</string>
+    <string name="achievement_x_2color">CgkIt9iwvfcIEAIQFA</string>
+    <string name="achievement_x_3color">CgkIt9iwvfcIEAIQFQ</string>
+    <string name="achievement_x_4color">CgkIt9iwvfcIEAIQFg</string>
+    <string name="achievement_x_5color">CgkIt9iwvfcIEAIQFw</string>
+    <string name="achievement_traingle_3_2color">CgkIt9iwvfcIEAIQGA</string>
+    <string name="achievement_triangle_3_3color">CgkIt9iwvfcIEAIQGQ</string>
+    <string name="achievement_triangle_6_2color">CgkIt9iwvfcIEAIQGg</string>
+    <string name="achievement_triangle_6_3color">CgkIt9iwvfcIEAIQGw</string>
+    <string name="achievement_triangle_6_4color">CgkIt9iwvfcIEAIQHA</string>
+    <string name="achievement_triangle_6_5color">CgkIt9iwvfcIEAIQHQ</string>
+    <string name="achievement_triangle_6_6color">CgkIt9iwvfcIEAIQHg</string>
+    <string name="achievement_flower_2color">CgkIt9iwvfcIEAIQHw</string>
+    <string name="achievement_flower_3color">CgkIt9iwvfcIEAIQIA</string>
+    <string name="achievement_flower_4color">CgkIt9iwvfcIEAIQIQ</string>
+    <string name="achievement_flower_5color">CgkIt9iwvfcIEAIQIg</string>
+    <string name="achievement_flower_6color">CgkIt9iwvfcIEAIQIw</string>
+    <string name="achievement_flower_7color">CgkIt9iwvfcIEAIQJA</string>
+    <string name="achievement_plus_2color">CgkIt9iwvfcIEAIQMg</string>
+    <string name="achievement_plus_3color">CgkIt9iwvfcIEAIQMw</string>
+    <string name="achievement_plus_4color">CgkIt9iwvfcIEAIQNA</string>
+    <string name="achievement_side_by_side_2color">CgkIt9iwvfcIEAIQNQ</string>
+    <string name="achievement_side_by_side_3color">CgkIt9iwvfcIEAIQNg</string>
+    <string name="achievement_side_by_side_4color">CgkIt9iwvfcIEAIQNw</string>
+    <string name="achievement_side_by_side_5color">CgkIt9iwvfcIEAIQOA</string>
+    <string name="achievement_side_by_side_6color">CgkIt9iwvfcIEAIQOQ</string>
+    <string name="achievement_wrench_2color">CgkIt9iwvfcIEAIQOg</string>
+    <string name="achievement_wrench_3color">CgkIt9iwvfcIEAIQOw</string>
+    <string name="achievement_wrench_4color">CgkIt9iwvfcIEAIQPA</string>
+    <string name="achievement_wrench_5color">CgkIt9iwvfcIEAIQPQ</string>
+    <string name="achievement_unorthodox_1_2color">CgkIt9iwvfcIEAIQPg</string>
+    <string name="achievement_unorthodox_1_3color">CgkIt9iwvfcIEAIQPw</string>
+    <string name="achievement_unorthodox_1_4color">CgkIt9iwvfcIEAIQQA</string>
+    <string name="achievement_unorthodox_1_5color">CgkIt9iwvfcIEAIQQQ</string>
+    <string name="achievement_unorthodox_1_6color">CgkIt9iwvfcIEAIQQg</string>
+    <string name="achievement_unorthodox_1_7color">CgkIt9iwvfcIEAIQQw</string>
+    <string name="achievement_unorthodox_2_2color">CgkIt9iwvfcIEAIQRA</string>
+    <string name="achievement_unorthodox_2_3color">CgkIt9iwvfcIEAIQRQ</string>
+    <string name="achievement_unorthodox_2_4color">CgkIt9iwvfcIEAIQRg</string>
+    <string name="achievement_unorthodox_2_5color">CgkIt9iwvfcIEAIQRw</string>
+    <string name="achievement_unorthodox_2_6color">CgkIt9iwvfcIEAIQSA</string>
+    <string name="achievement_unorthodox_2_7color">CgkIt9iwvfcIEAIQSQ</string>
+
+    //  Games Leaderboards
+    <string name="leaderboard_square_3x3">CgkIt9iwvfcIEAIQCQ</string>
+    <string name="leaderboard_square_2x2">CgkIt9iwvfcIEAIQJQ</string>
+    <string name="leaderboard_cross">CgkIt9iwvfcIEAIQJg</string>
+    <string name="leaderboard_line_2">CgkIt9iwvfcIEAIQJw</string>
+    <string name="leaderboard_line_3">CgkIt9iwvfcIEAIQKA</string>
+    <string name="leaderboard_x">CgkIt9iwvfcIEAIQKQ</string>
+    <string name="leaderboard_triangle_3">CgkIt9iwvfcIEAIQKg</string>
+    <string name="leaderboard_triangle_6">CgkIt9iwvfcIEAIQKw</string>
+    <string name="leaderboard_flower">CgkIt9iwvfcIEAIQLA</string>
+    <string name="leaderboard_plus">CgkIt9iwvfcIEAIQLQ</string>
+    <string name="leaderboard_side_by_side">CgkIt9iwvfcIEAIQLg</string>
+    <string name="leaderboard_wrench">CgkIt9iwvfcIEAIQLw</string>
+    <string name="leaderboard_unorthodox_1">CgkIt9iwvfcIEAIQMA</string>
+    <string name="leaderboard_unorthodox_2">CgkIt9iwvfcIEAIQMQ</string>
+</resources>

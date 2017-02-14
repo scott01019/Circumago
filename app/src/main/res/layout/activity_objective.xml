@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.apps.scott.circumago.common.view.FontedTextView
+        android:id="@+id/objective_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/objective_title_margin_bottom"
+        android:text="@string/objective_title_text"
+        android:textSize="@dimen/activity_title_text"
+        android:textColor="@color/black"
+        custom:font="Pacifico.ttf"/>
+
+    <com.apps.scott.circumago.common.view.FontedTextView
+        android:id="@+id/objective_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/objective_title"
+        android:layout_marginStart="@dimen/activity_text_margin"
+        android:layout_marginEnd="@dimen/activity_text_margin"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:text="@string/objective_explanation_text"
+        android:textSize="@dimen/activity_text"
+        custom:font="JosefinSans-Bold.ttf"/>
+
+    <fragment
+        android:name="com.apps.scott.circumago.fragment.ReplayBoardFragment"
+        android:id="@+id/fragment_replay_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/objective_bottom_container"
+        android:layout_below="@+id/objective_explanation"/>
+
+    <LinearLayout
+        android:id="@+id/objective_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <fragment android:name="com.apps.scott.circumago.fragment.GamesFragment"
+                  android:id="@+id/fragment_games_container"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <fragment android:name="com.apps.scott.circumago.fragment.BannerAdFragment"
+                  android:id="@+id/fragment_banner_ad"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

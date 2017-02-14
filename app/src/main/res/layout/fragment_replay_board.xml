@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/replay_board_container"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.apps.scott.circumago.common.view.board.replay.BoardReplayView
+        android:id="@+id/replay_board"
+        android:layout_width="@dimen/board_preview"
+        android:layout_height="@dimen/board_preview"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

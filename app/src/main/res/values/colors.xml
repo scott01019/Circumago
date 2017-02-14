@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#999999</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#006600</color>
+    <color name="orange">#FF7D3D</color>
+    <color name="purple">#5F519B</color>
+    <color name="light_gray">#C2C1C1</color>
+    <color name="light_blue">#75C5F1</color>
+    <color name="light_green">#B9DB7D</color>
+    <color name="light_red">#FF6961</color>
+    <color name="light_yellow">#FDFD96</color>
+    <color name="light_orange">#FFB347</color>
+    <color name="rubik_yellow">#FFD500</color>
+    <color name="rubik_red">#B71234</color>
+    <color name="rubik_green">#009B48</color>
+    <color name="rubik_orange">#FF5800</color>
+    <color name="rubik_blue">#0046AD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="underline">#A4C639</color>
+    <color name="underline_fill">#FFFAFAFA</color>
+
+    <color name="circ_red">#AC0001</color>
+    <color name="circ_blue">#122279</color>
+    <color name="circ_purple">#6861A5</color>
+    <color name="circ_green">#2A7E5A</color>
+    <color name="circ_yellow">#FFD202</color>
+    <color name="circ_light_green">#93CB46</color>
+    <color name="circ_pink">#EE8DB8</color>
+    <color name="circ_light_blue">#65ACDA</color>
+    <color name="circ_orange">#EF5701</color>
+</resources>

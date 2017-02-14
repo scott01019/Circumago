@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_board_setup_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/board_setup_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment android:name="com.apps.scott.circumago.fragment.FontedTextViewPagerFragment"
+                      android:id="@+id/fragment_board_setup_fragment_board_format"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <fragment android:name="com.apps.scott.circumago.fragment.FontedTextViewPagerFragment"
+                      android:id="@+id/fragment_board_setup_fragment_board_type"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/fragment_board_setup_fragment_board_format"/>
+
+            <fragment android:name="com.apps.scott.circumago.fragment.FontedTextViewPagerFragment"
+                      android:id="@+id/fragment_board_setup_fragment_node_type"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fragment_board_setup_fragment_board_type"/>
+
+            <fragment android:name="com.apps.scott.circumago.fragment.FontedTextViewPagerFragment"
+                      android:id="@+id/fragment_board_setup_fragment_num_colors"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fragment_board_setup_fragment_node_type"/>
+
+            <fragment android:name="com.apps.scott.circumago.fragment.BoardColorSchemePickerFragment"
+                      android:id="@+id/fragment_board_setup_fragment_preview_board"
+                      android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                        android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/fragment_board_setup_fragment_num_colors"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
